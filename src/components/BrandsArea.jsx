@@ -18,8 +18,9 @@ const BrandsArea = () => {
         <p className="my-5 py-5 fs-4 text-center text-primary ">
           Brand Deals For Services
         </p>
-        <div className="brands row gap-3  my-5">
-          <div className="col d-flex align-items-center justify-content-center d-none d-md-block">
+
+        <div className="brands row  gap-3  my-5">
+          <div className="col d-flex align-items-center justify-content-center d-none d-md-block ">
             <img src={Brand1} alt="" srcset="" />
           </div>
           <div className="col d-flex align-items-center justify-content-center d-none d-md-block ">
@@ -28,7 +29,7 @@ const BrandsArea = () => {
           <div className="col d-flex align-items-center justify-content-center  d-none d-md-block">
             <img src={Brand3} alt="" srcset="" />
           </div>
-          <div className="col d-flex align-items-center justify-content-center ">
+          <div className="col d-flex align-items-center justify-content-center">
             <img src={Brand4} alt="" srcset="" />
           </div>
           <div className="col d-flex align-items-center justify-content-center">
@@ -40,12 +41,12 @@ const BrandsArea = () => {
         </div>
 
         <span className="px-5 gap-3 d-flex ">
-          <button className="btn py-2 my-3 px-4 btn-primary rounded-pill">
+          <button className="btn py-2 my-3 px-4 container btn-primary rounded-pill">
             <FontAwesomeIcon icon={faPhone} />
             <span> Call Us</span>
           </button>
 
-          <button className="btn py-2 my-3 px-4 btn-success rounded-pill ">
+          <button className="btn py-2 my-3 px-4 container  btn-success rounded-pill ">
             <FontAwesomeIcon icon={faWhatsapp} />
             <span> Whatsapp</span>
           </button>

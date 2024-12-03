@@ -11,17 +11,17 @@ const ContactUs = () => {
           <p className="fs-4 text-center my-5 py-5 text-primary ">
             Brand Deals For Services
           </p>
-          <h1 className="text-center fs-3">
+          <h1 className="text-center my-5 fs-3">
             Our Team Contact us As Soon As Possible
           </h1>
 
-          <div className="p-5">
+          <div className="p-md-5">
             <div className="row ">
               <div className="col  d-flex align-items-center justify-content-center">
                 <div
                   style={{
-                    width: "23rem",
-                    height: "23.5rem",
+                    width: "35rem",
+                    height: "35.5rem",
                   }}
                 >
                   <div
@@ -45,18 +45,21 @@ const ContactUs = () => {
               "
               >
                 <form
-                  className=" rounded-5 px-lg-4 px-2 py-5 my-5"
+                  className=" rounded-5 px-lg-5 px-2 py-5 my-5 "
                   style={{
                     boxShadow:
                       " rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px",
-                    width: "23rem",
-                    height: "24rem",
+                    width: "35rem",
+                    height: "35.5rem",
                   }}
                 >
                   <div className="mb-3 mt-3">
+
+                  <p className="my-4">Please fill  your contact details. </p>
+
                     <input
                       type="email"
-                      className="form-control text-center"
+                      className="form-control text-center my-5"
                       id="exampleInputEmail1"
                       placeholder="Your Name"
                     ></input>
@@ -64,7 +67,7 @@ const ContactUs = () => {
                   <div className="mb-3">
                     <input
                       type="password"
-                      className="form-control text-center"
+                      className="form-control text-center my-5"
                       id="exampleInputPassword1"
                       placeholder="Contact Number"
                     ></input>

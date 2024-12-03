@@ -22,7 +22,7 @@ const SmilingMechanic = () => {
             <p className="btn px-4 py-2 btn-primary fs- rounded-pill">Read More</p>
           </div>
 
-          <div className="col-lg-6">
+          <div className="">
             <img src={SmileMechanic} className="img-fluid" alt="" />
           </div>
         </div>

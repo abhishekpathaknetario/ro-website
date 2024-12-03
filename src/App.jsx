@@ -8,11 +8,15 @@ import Ratings from "./components/Ratings";
 import BrandsArea from "./components/BrandsArea";
 import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
+import SpareParts from "./components/spareParts/SpareParts";
 
 const App = () => {
   return (
     <div>
       <Navbar />
+
+      {/* <SpareParts /> */}
+
       <HeroSection />
      
       <WhatWeOffer />
@@ -26,6 +30,7 @@ const App = () => {
       ></div>
       <BrandsArea />
       <ContactUs />
+     
       <Footer />
     </div>
   );
