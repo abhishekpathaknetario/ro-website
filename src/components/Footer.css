@@ -1,0 +1,15 @@
+a {
+  color: black;
+  text-decoration: none;
+}
+.footer-icon {
+  margin: 0 10px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: 50%;
+  color: blue;
+}

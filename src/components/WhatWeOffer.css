@@ -1,0 +1,11 @@
+.before-element {
+  position: relative;
+}
+
+.before-element::before {
+  content: url("../assets/Images/vctblue.png"); /* URL of the image */
+  position: absolute; /* Optional: For precise positioning */
+  left: -30%; /* Adjust to position image on the left */
+  top: -30px; /* Center vertically */
+  transform: scale(-50%);
+}
