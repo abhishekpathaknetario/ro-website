@@ -5,7 +5,7 @@ import Stars from "../assets/Images/Stars.png";
 
 function Ratings() {
   return (
-    <section className="container  ">
+    <section className="container my-5  ">
       <div>
         {/* TOP HEADING AND DESCRIPTION */}
         <div className="text-center d-flex flex-column align-items-center">

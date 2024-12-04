@@ -1,13 +1,22 @@
 import React from "react";
 
-const SpareParts = () => {
+import Spare1 from "../../assets/Images/spare-parts/p1.png";
+import Spare2 from "../../assets/Images/spare-parts/p3.png";
+import Spare3 from "../../assets/Images/spare-parts/p2.png";
+
+import "./Spare.css"; // Create a CSS file for custom styling
+import ProductSection from "./ProductSection";
+import ContactUs from "../ContactUs";
+import TermsAndConditions from "./TermsConditions";
+
+const Spare = () => {
   return (
     <>
-      <div className="container-fluid">
-        <div className="row px-5">
+      <div className="container-fluid my-5">
+        <div className="row px-3 px-md-5">
           <div
-            className="col-2"
-            style={{ backgroundColor: "rgba(220, 220, 220, 1)" }}
+            className="col-3 col-lg-2 d-none d-lg-block"
+            style={{ height: "40vh", background: "rgba(220, 220, 220, 1)" }}
           >
             <div className="col py-3">
               <form className="d-flex" role="search">
@@ -22,7 +31,7 @@ const SpareParts = () => {
             </div>
             <div
               className="col overflow-y-scroll  text-center overflow-x-hidden "
-              style={{ height: "40vh", background: "rgba(220, 220, 220, 1)" }}
+              style={{ height: "30vh", background: "rgba(220, 220, 220, 1)" }}
             >
               <span className="row  my-1">
                 <p>Tap, Elbow and Connecter</p>
@@ -83,10 +92,10 @@ const SpareParts = () => {
               </span>
             </div>
           </div>
-          <div className="col-10 bg-success">
+          <div className="col-12 col-md-8 margin-wepro">
             {/* SEARCH AND DESCRPTION */}
 
-            <div className="w-50 ">
+            <div className="w-100 w-md-50">
               <h5>We Provide Best Quality of Spare Parts</h5>
 
               <p className="">
@@ -97,7 +106,7 @@ const SpareParts = () => {
                 water
               </p>
               {/* Search And Pagination */}
-              <div className=" d-flex align-items-center w-75 ">
+              <div className=" d-flex align-items-center w-75  ">
                 <input
                   class="form-control me-2"
                   type="search"
@@ -134,25 +143,20 @@ const SpareParts = () => {
                   </ul>
                 </nav>
               </div>
+            </div>
 
-              {/*Product galarry  here  */}
+            {/*Product galarry  here  */}
 
-              <div className="gallery">
-                <div className="gallery-item">
-                  <img
-                    src="https://via.placeholder.com/200"
-                    alt="Product 1"
-                  ></img>
-                  <h5>Product 1</h5>
-                  <p>$10.00</p>
-                </div>
-              </div>
+            <div className="w-100 w-md-75 ">
+              <ProductSection />
             </div>
           </div>
+          <ContactUs />
+          <TermsAndConditions />
         </div>
       </div>
     </>
   );
 };
 
-export default SpareParts;
+export default Spare;
