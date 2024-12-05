@@ -115,7 +115,7 @@ const TypesOfService = () => {
           </div>
         </div>
         <div className="d-flex justify-content-center justify-content-md-start">
-          <button className="btn px-4 btn-primary rounded-pill">
+          <button className="btn px-1 px-xs-4 btn-primary rounded-pill">
             <FontAwesomeIcon icon={faPhone} />
             <span> Call Us</span>
           </button>
@@ -124,7 +124,9 @@ const TypesOfService = () => {
             <span> Whatsapp</span>
           </button>
         </div>
-        <Ratings />
+        <div>
+          <Ratings />
+        </div>
       </div>
     </>
   );

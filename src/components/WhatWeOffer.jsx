@@ -1,5 +1,5 @@
 import React from "react";
-import "./WhatWeOffer.css";
+import "./WhatWeOffercss.css";
 import Frame1 from "../assets/Images/frame1.png";
 import Frame2 from "../assets/Images/frame2.png";
 import Frame3 from "../assets/Images/frame3.png";

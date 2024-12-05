@@ -11,7 +11,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // React Font 
 import { faPhone } from "@fortawesome/free-solid-svg-icons"; // Specific icons
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
+import "./BrandsArea.css"
+
 const BrandsArea = () => {
+
   return (
     <div className="d-flex">
       <div className="container  d-flex flex-column align-items-center  ">
@@ -20,27 +23,27 @@ const BrandsArea = () => {
         </p>
 
         <div className="brands row  gap-3  my-5">
-          <div className="col d-flex align-items-center justify-content-center d-none d-md-block ">
+          <div className="col  d-none d-md-block ">
             <img src={Brand1} alt="" srcset="" />
           </div>
-          <div className="col d-flex align-items-center justify-content-center d-none d-md-block ">
+          <div className="col d-none d-md-block ">
             <img src={Brand2} alt="" srcset="" />
           </div>
-          <div className="col d-flex align-items-center justify-content-center  d-none d-md-block">
+          <div className="col   d-none d-md-block">
             <img src={Brand3} alt="" srcset="" />
           </div>
-          <div className="col d-flex align-items-center justify-content-center">
+          <div className="col ">
             <img src={Brand4} alt="" srcset="" />
           </div>
-          <div className="col d-flex align-items-center justify-content-center">
+          <div className="col ">
             <img src={Brand5} alt="" srcset="" />
           </div>
-          <div className="col d-flex align-items-center justify-content-center ">
+          <div className="col ">
             <img src={Brand6} alt="" srcset="" />
           </div>
         </div>
 
-        <span className="px-5 gap-3 d-flex ">
+        <span className="px-0  px-lg-5 gap-3 d-flex ">
           <button className="btn py-2 my-3 px-4 container btn-primary rounded-pill">
             <FontAwesomeIcon icon={faPhone} />
             <span> Call Us</span>

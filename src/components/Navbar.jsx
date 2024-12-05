@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom"; // Import Link from react-router-dom
+import { NavLink } from "react-router-dom"; // Import Link from react-router-dom
 
 const Navbar = () => {
   return (
@@ -27,42 +27,80 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav fw-semibold gap-3">
             <li className="nav-item">
-              <Link
-                className="nav-link text-primary border-2 border-bottom border-primary active"
+              <NavLink
+                className={(e) => {
+                  return e.isActive
+                    ? "text-primary nav-link  border-2 border-bottom border-primary"
+                    : "nav-link ";
+                }}
                 to="/"
               >
                 Home
-              </Link>
+              </NavLink>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/spare-parts">
+
+            <li className="nav-item  ">
+              <NavLink
+                className={(e) => {
+                  return e.isActive
+                    ? "text-primary nav-link  border-2 border-primary border-bottom"
+                    : "nav-link ";
+                }}
+                to="/spareparts"
+              >
                 Spare Parts
-              </Link>
+              </NavLink>
             </li>
+
             <li className="nav-item">
-              <Link className="nav-link" to="/services">
+              <NavLink
+                className={(e) => {
+                  return e.isActive
+                    ? "nav-link text-primary border-2 border-bottom border-primary"
+                    : "nav-link ";
+                }}
+                to="/services"
+              >
                 Services
-              </Link>
+              </NavLink>
             </li>
+
             <li className="nav-item">
-              <Link className="nav-link" to="/contact">
+              <NavLink
+                className={(e) => {
+                  return e.isActive
+                    ? "nav-link text-primary border-2 border-bottom border-primary"
+                    : "nav-link ";
+                }}
+                to="/contactus"
+              >
                 Contact
-              </Link>
+              </NavLink>
             </li>
+
             <li className="nav-item">
-              <Link className="nav-link" to="/payment">
+              <NavLink
+                className={(e) => {
+                  return e.isActive
+                    ? "nav-link text-primary border-2 border-bottom border-primary"
+                    : "nav-link ";
+                }}
+                to="/payment"
+              >
                 Payment
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>
         <button className="btn btn-primary rounded-pill">
           Call Us <FontAwesomeIcon icon={faPhone} />
         </button>
-        <FontAwesomeIcon
-          icon={faCartShopping}
+        <NavLink
           className="mx-4 md-mx-5 d-none d-lg-block text-primary fs-4"
-        />
+          to="/cartpage"
+        >
+          <FontAwesomeIcon icon={faCartShopping} />
+        </NavLink>
       </div>
     </nav>
   );
