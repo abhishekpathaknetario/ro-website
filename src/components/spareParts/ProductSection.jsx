@@ -43,8 +43,8 @@ const ProductSection = () => {
 
   return (
     <div
-      className="w-75 w-md-50 w-lg-25 mx-auto overflow-y-scroll my-5"
-      style={{ height: "80vh", padding: "20px" }}
+      className="w-75 w-md-50 w-lg-25  overflow-y-scroll my-5"
+      style={{ height: "80vh" }}
     >
       <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         {products.map((product) => (
