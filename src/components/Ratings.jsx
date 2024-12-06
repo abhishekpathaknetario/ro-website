@@ -24,15 +24,16 @@ function Ratings() {
         {/* CARDS */}
 
         <div
-          className="googlecards d-flex flex-wrap justify-content-around align-items-end gap-5"
-          style={{ marginTop: "10rem" }}
+          className="googlecards d-flex flex-wrap justify-content-around align-items-end"
+          style={{ marginTop: "2rem" }}
         >
           <div
-            className="card d-none d-lg-block"
+            className="card border-0 d-none d-lg-block"
             style={{
               width: "16rem",
               height: "21rem",
-              boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
+              boxShadow:
+                " rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px",
             }}
           >
             <div className="card-body d-flex flex-column align-items-center text-center">
@@ -67,11 +68,12 @@ function Ratings() {
           </div>
 
           <div
-            className="card"
+            className="card border-0"
             style={{
               width: "18rem",
               height: "24rem",
-              boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
+              boxShadow:
+                " rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px",
             }}
           >
             <div className="card-body d-flex flex-column align-items-center text-center">
@@ -106,11 +108,12 @@ function Ratings() {
           </div>
 
           <div
-            className="card d-none d-lg-block"
+            className="card border-0 d-none d-lg-block"
             style={{
               width: "16rem",
               height: "21rem",
-              boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
+              boxShadow:
+                " rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px",
             }}
           >
             <div className="card-body d-flex flex-column align-items-center text-center">

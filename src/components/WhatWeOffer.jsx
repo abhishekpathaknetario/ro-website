@@ -24,7 +24,7 @@ function WhatWeOffer() {
 
         {/* CARDS */}
 
-        <div className="cards-container d-flex flex-wrap gap-5 justify-content-center justify-content-around mt-5 px-4 ">
+        <div className="cards-container d-flex flex-wrap flex-md-nowrap gap-5 justify-content-center justify-content-around mt-5 px-4 ">
           {/*  */}
           <div className="card border-2" style={{ width: "20rem" }}>
             <div className="card-body">
@@ -34,7 +34,7 @@ function WhatWeOffer() {
               <h6 className="card-subtitle my-3 text-dark fs-5">
                 Home Services{" "}
               </h6>
-              <p className="text-dark fw-normal">
+              <p className="text-dark fw-normal ">
                 Lorem ipsum dolor sit amet consectetur. Est et congue habitasse
                 mattis consectetur viverra nec. Sit arcu etiam fringilla vel
                 tincidunt. Purus viverra sed blandit a.

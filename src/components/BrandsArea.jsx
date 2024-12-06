@@ -18,11 +18,11 @@ const BrandsArea = () => {
   return (
     <div className="d-flex">
       <div className="container  d-flex flex-column align-items-center  ">
-        <p className="my-5 py-5 fs-4 text-center text-primary ">
+        <p className="mt-5 fs-4 text-center text-primary ">
           Brand Deals For Services
         </p>
 
-        <div className="brands row  gap-3  my-5">
+        <div className="brands row mb-3  gap-3 ">
           <div className="col  d-none d-md-block ">
             <img src={Brand1} alt="" srcset="" />
           </div>

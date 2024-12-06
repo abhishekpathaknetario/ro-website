@@ -151,7 +151,9 @@ const Spare = () => {
               <ProductSection />
             </div>
           </div>
-          <ContactUs />
+          <div>
+            <ContactUs />
+          </div>
           <TermsAndConditions />
         </div>
       </div>

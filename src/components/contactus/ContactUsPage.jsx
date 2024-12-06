@@ -5,18 +5,18 @@ const ContactUsPage = () => {
     <>
       <div>
         <div className="container  ">
-          <div className="  py-5">
-            <h1 className="fs-1 text-center my-3 py-md-5 text-black ">
+          <div className=" py-5">
+            <h1 className="fs-1 text-center  py-md-5 text-black ">
               Contact us
             </h1>
-            <p className="text-center my-2 my-md-3 py-5 fs-6">
+            <p className="text-center my-md-3 fs-6">
               Providing expert water purifier services across India, we
               specialize in maintenance, repairs, and spare parts for all
               brands, ensuring safe drinking water and reliable performance with
               quick, professional support nationwide{" "}
             </p>
 
-            <div className="p-md-5">
+            <div className="">
               <div className="row ">
                 <div className="col  d-flex align-items-center justify-content-center">
                   <div
