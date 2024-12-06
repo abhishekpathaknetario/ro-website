@@ -30,10 +30,10 @@ const TypesOfService = () => {
           </p>
         </div>
 
-        <div className="services  ">
+        <div className="services  mb-5">
           <div className="row flex-nowrap my-2">
             <div className="col d-flex align-items-center ">
-              <span className="right">
+              <span className="right mx-2">
                 <h1 className="service_no">01.</h1>
               </span>
               <span className="left ">
@@ -46,7 +46,7 @@ const TypesOfService = () => {
               </span>
             </div>{" "}
             <div className="col d-flex align-items-center ">
-              <span className="right">
+              <span className="right mx-2">
                 <h1 className="service_no">02.</h1>
               </span>
               <span className="left ">
@@ -59,7 +59,7 @@ const TypesOfService = () => {
               </span>
             </div>{" "}
             <div className="col d-flex align-items-center">
-              <span className="right">
+              <span className="right mx-2">
                 <h1 className="service_no">03.</h1>
               </span>
               <span className="left ">
@@ -74,7 +74,7 @@ const TypesOfService = () => {
           </div>
           <div className="row flex-nowrap my-2 ">
             <div className="col d-flex align-items-center ">
-              <span className="right">
+              <span className="right mx-2">
                 <h1 className="service_no">04.</h1>
               </span>
               <span className="left ">
@@ -87,7 +87,7 @@ const TypesOfService = () => {
               </span>
             </div>{" "}
             <div className="col d-flex align-items-center ">
-              <span className="right">
+              <span className="right mx-2">
                 <h1 className="service_no">05.</h1>
               </span>
               <span className="left ">
@@ -100,7 +100,7 @@ const TypesOfService = () => {
               </span>
             </div>{" "}
             <div className="col d-flex align-items-center ">
-              <span className="right">
+              <span className="right mx-2">
                 <h1 className="service_no">06.</h1>
               </span>
               <span className="left ">
@@ -115,7 +115,7 @@ const TypesOfService = () => {
           </div>
         </div>
         <div className="d-flex justify-content-center justify-content-md-start">
-          <button className="btn px-1 px-xs-4 btn-primary rounded-pill">
+          <button className="btn px-4 px-xs-4 btn-primary rounded-pill">
             <FontAwesomeIcon icon={faPhone} />
             <span> Call Us</span>
           </button>

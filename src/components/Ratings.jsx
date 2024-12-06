@@ -12,7 +12,7 @@ function Ratings() {
           <p className="text-primary ">What Our Customer Says</p>
 
           <h1 className="fs-3">Review & Ratings</h1>
-          <p className="fs-6 w-75 my-3">
+          <p className="fs-6  w-100 w-lg-50 my-3">
             Lorem ipsum dolor sit amet consectetur. Pharetra odio turpis mauris
             dolor massa aliquet sociis in condimentum. In purus semper mauris
             pharetra fringilla porta mauris. In integer commodo odio sed elit

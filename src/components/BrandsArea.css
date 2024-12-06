@@ -1,5 +1,30 @@
-.brands div img{
-    width: 90%;
-    aspect-ratio: 4/3;
-    object-fit: contain;
+.brands img {
+  width: 65%;
+  aspect-ratio: 4/3;
+  object-fit: contain;
+}
+.brands {
+  display: flex;
+  align-items: space-between;
+  /* height: 100px; */
+}
+.brands-container {
+  overflow: hidden; /* Hide content outside the container */
+  width: 100%;
+}
+
+.sliding {
+  display: flex;
+  animation: slide 10s linear infinite; /* Adjust duration for speed */
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(
+      -50%
+    ); /* Slide halfway (width of one set of images) */
+  }
 }

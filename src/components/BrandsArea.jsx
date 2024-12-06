@@ -11,10 +11,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // React Font 
 import { faPhone } from "@fortawesome/free-solid-svg-icons"; // Specific icons
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
-import "./BrandsArea.css"
+import "./BrandsArea.css";
 
 const BrandsArea = () => {
-
   return (
     <div className="d-flex">
       <div className="container  d-flex flex-column align-items-center  ">
@@ -22,24 +21,46 @@ const BrandsArea = () => {
           Brand Deals For Services
         </p>
 
-        <div className="brands row mb-3  gap-3 ">
-          <div className="col  d-none d-md-block ">
-            <img src={Brand1} alt="" srcset="" />
-          </div>
-          <div className="col d-none d-md-block ">
-            <img src={Brand2} alt="" srcset="" />
-          </div>
-          <div className="col   d-none d-md-block">
-            <img src={Brand3} alt="" srcset="" />
-          </div>
-          <div className="col ">
-            <img src={Brand4} alt="" srcset="" />
-          </div>
-          <div className="col ">
-            <img src={Brand5} alt="" srcset="" />
-          </div>
-          <div className="col ">
-            <img src={Brand6} alt="" srcset="" />
+        <div className="brands-container">
+          <div className="brands  sliding">
+            <div className="col-2">
+              <img src={Brand1} alt="Brand 1" />
+            </div>
+            <div className="col-2">
+              <img src={Brand2} alt="Brand 2" />
+            </div>
+            <div className="col-2">
+              <img src={Brand3} alt="Brand 3" />
+            </div>
+            <div className="col-2">
+              <img src={Brand4} alt="Brand 4" />
+            </div>
+            <div className="col-2">
+              <img src={Brand5} alt="Brand 5" />
+            </div>
+            <div className="col-2">
+              <img src={Brand6} alt="Brand 6" />
+            </div>
+
+            {/* Duplicate images for seamless scrolling */}
+            <div className="col">
+              <img src={Brand1} alt="Brand 1" />
+            </div>
+            <div className="col">
+              <img src={Brand2} alt="Brand 2" />
+            </div>
+            <div className="col">
+              <img src={Brand3} alt="Brand 3" />
+            </div>
+            <div className="col">
+              <img src={Brand4} alt="Brand 4" />
+            </div>
+            <div className="col">
+              <img src={Brand5} alt="Brand 5" />
+            </div>
+            <div className="col">
+              <img src={Brand6} alt="Brand 6" />
+            </div>
           </div>
         </div>
 
