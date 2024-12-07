@@ -22,7 +22,7 @@ const Footer = () => {
               <img src={Logo} alt="" srcset="" />
             </span>
             <span className="description">
-              <p className="w-50 pt-2">
+              <p className="w--md-50 w-75  pt-2">
                 Lorem ipsum dolor sit amet consectetur. Lectus eleifend orci
                 vitae gravida sit molestie. Tristique porttitor dictum sed at
                 magna venenatis quis ultricies.

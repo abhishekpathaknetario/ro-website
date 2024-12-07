@@ -6,20 +6,34 @@ const ProductCard = ({ product }) => (
     className="card"
     style={{
       width: "100%",
-      padding: "10px",
+      height: "280px",
+      padding: "10px 0px",
       boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
+      fontSize: "10px",
     }}
   >
-    <img
-      src={product.image}
-      className="card-img-top"
-      alt={product.name}
-      style={{ width: "100%", height: "150px", objectFit: "contain" }}
-    />
+    <div
+      className="d-flex align-items-center justify-content-center"
+      style={{ width: "100%", height: "100px" }}
+    >
+      <img
+        src={product.image}
+        className="card-img-top"
+        alt={product.name}
+        style={{ height: "60%", width: "60%", objectFit: "contain" }}
+      />
+    </div>
+
     <div className="card-body">
-      <h5 className="card-title">{product.name}</h5>
-      <p className="card-text">Price: ${product.price}</p>
-      <button className="btn btn-primary">Add to Cart</button>
+      <span>
+        <i className="card-title">{product.title}</i>
+      </span>
+      <span>
+        <p className="card-text my-3">Price: ${product.price}</p>
+      </span>
+      <span>
+        <button className="btn btn-primary w-100">Add to Cart</button>
+      </span>
     </div>
   </div>
 );
@@ -43,10 +57,10 @@ const ProductSection = () => {
 
   return (
     <div
-      className="w-75 w-md-50 w-lg-25  overflow-y-scroll my-5"
+      className="w-100 w-md-50 w-lg-25  overflow-y-scroll my-5"
       style={{ height: "80vh" }}
     >
-      <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      <div className="row me-0 row-cols-2 row-cols-md-2 row-cols-lg-3 g-1">
         {products.map((product) => (
           <div className="col" key={product.id}>
             <ProductCard product={product} />

@@ -2,17 +2,19 @@ import React from "react";
 import Aman from "../assets/Images/Amar.png";
 import Googel from "../assets/Images/symbolgoogle.png";
 import Stars from "../assets/Images/Stars.png";
-
+import "./Ratings.css";
 function Ratings() {
   return (
-    <section className="container my-5  ">
+    <section className="container mt-5  ">
       <div>
         {/* TOP HEADING AND DESCRIPTION */}
         <div className="text-center d-flex flex-column align-items-center">
-          <p className="text-primary ">What Our Customer Says</p>
+          <p className="text-primary fs-4 fw-semibold">
+            What Our Customer Says
+          </p>
 
           <h1 className="fs-3">Review & Ratings</h1>
-          <p className="fs-6  w-100 w-lg-50 my-3">
+          <p className=" w-100 w-sm-75  my-3">
             Lorem ipsum dolor sit amet consectetur. Pharetra odio turpis mauris
             dolor massa aliquet sociis in condimentum. In purus semper mauris
             pharetra fringilla porta mauris. In integer commodo odio sed elit

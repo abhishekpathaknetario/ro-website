@@ -15,13 +15,13 @@ import "./BrandsArea.css";
 
 const BrandsArea = () => {
   return (
-    <div className="d-flex">
+    <div className="d-flex my-3">
       <div className="container  d-flex flex-column align-items-center  ">
-        <p className="mt-5 fs-4 text-center text-primary ">
+        <p className="mt-5 mb-4  fw-semibold fs-4 text-center text-primary ">
           Brand Deals For Services
         </p>
 
-        <div className="brands-container">
+        <div className="brands-container ">
           <div className="brands  sliding">
             <div className="col-2">
               <img src={Brand1} alt="Brand 1" />
@@ -64,13 +64,13 @@ const BrandsArea = () => {
           </div>
         </div>
 
-        <span className="px-0  px-lg-5 gap-3 d-flex ">
-          <button className="btn py-2 my-3 px-4 container btn-primary rounded-pill">
+        <span className="px-0  px-lg-5 gap-3 d-flex align-items-center">
+          <button className="btn my-3 px-4 container btn-primary rounded-pill">
             <FontAwesomeIcon icon={faPhone} />
             <span> Call Us</span>
           </button>
 
-          <button className="btn py-2 my-3 px-4 container  btn-success rounded-pill ">
+          <button className="btn gap-2 d-flex align-items-center my-3 px-3 container  btn-success rounded-pill ">
             <FontAwesomeIcon icon={faWhatsapp} />
             <span> Whatsapp</span>
           </button>

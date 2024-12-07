@@ -3,7 +3,9 @@ a {
   text-decoration: none;
   font-size: 15px;
 }
-
+.description p {
+  font-size: 0.8rem;
+}
 @media (min-width: 1570px) {
   a {
     color: black;
@@ -26,6 +28,6 @@ a {
   font-size: 13px;
   top: 190px;
 }
-.right{
+.right {
   margin-right: 20px;
 }
