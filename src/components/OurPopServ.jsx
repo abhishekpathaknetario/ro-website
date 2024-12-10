@@ -6,7 +6,7 @@ import Wrench from "../assets/Images/wrench.png";
 
 function OurPopServ() {
   return (
-    <div className=" pb-5  bg-service">
+    <div className=" pb-5 pt-md-3  bg-service">
       <section className="container">
         <div>
           {/* TOP HEADING AND DESCRIPTION */}
@@ -29,15 +29,7 @@ function OurPopServ() {
           <div className="cards justify-content-around gap-5 row">
             {/* CARD */}
             <div className="col-11 col-md-3  ">
-              <div
-                className="card serv-card"
-                style={{
-                  height: "17rem",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                }}
-              >
+              <div className="card serv-card">
                 <img src={Mechanic} alt="" className="img-fluid" />
               </div>
 
@@ -48,15 +40,7 @@ function OurPopServ() {
 
             {/* CARD */}
             <div className=" col-11 col-md-3  ">
-              <div
-                className="card"
-                style={{
-                  height: "17rem",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                }}
-              >
+              <div className="card serv-card">
                 <img src={Courier} alt="" className="img-fluid" />
               </div>
 
@@ -67,15 +51,7 @@ function OurPopServ() {
 
             {/* CARD */}
             <div className=" col-11 col-md-3   ">
-              <div
-                className="card"
-                style={{
-                  height: "17rem",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                }}
-              >
+              <div className="card serv-card">
                 <img src={Wrench} alt="" className="img-fluid" />
               </div>
 

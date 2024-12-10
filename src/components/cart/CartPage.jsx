@@ -44,8 +44,8 @@ const CartPage = () => {
                           </p>
                         </div>
 
-                        <div className="price d-flex justify-content-between">
-                          <p className="mb-0">Quantity</p>
+                        <div className="price d-flex  justify-content-between ">
+                          <p className="mb-0 ">Quantity</p>
                           <p className="mb-0">Total Price $25.66</p>
                         </div>
                       </div>
@@ -58,7 +58,7 @@ const CartPage = () => {
                   <div className="col-12 col-lg-4"></div>
                 </div>
               </div>
-            </div>{" "}
+            </div>
             <div className="container-fluid w-100">
               <div className="mx-2">
                 <div className="row p-2">
@@ -118,7 +118,9 @@ const CartPage = () => {
               <span>10%</span>
             </p>
 
-            <button className="btn btn-light rounded-pill w-100">Pay Now</button>
+            <button className="btn btn-light rounded-pill w-100">
+              Pay Now
+            </button>
           </div>
         </div>
       </div>

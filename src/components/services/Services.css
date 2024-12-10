@@ -4,14 +4,21 @@
     width: 73%;
   }
   .service_info {
-
     margin: 15px 0px;
     font-size: 1rem;
     /* padding: 5rem 5px; */
   }
-  .service-desc{
+  .service-desc {
     width: 75%;
     font-size: 1rem;
   }
 }
 
+.service-desc {
+  font-size: 0.8rem;
+}
+.service_info {
+  margin: 15px 0px;
+  padding: 0;
+  /* padding: 5rem 5px; */
+}

@@ -17,7 +17,7 @@ import Ratings from "../Ratings";
 const TypesOfService = () => {
   return (
     <>
-      <div className="container-area my-5 px-5 d-flex flex-column align-items-center ">
+      <div className="container-area my-5 px-3 d-flex flex-column align-items-center ">
         <div className="typesservs">
           <h1>We Provide Six Types of Services</h1>
           <p>
@@ -30,8 +30,8 @@ const TypesOfService = () => {
           </p>
         </div>
 
-        <div className="services  mb-5">
-          <div className="row flex-nowrap my-2">
+        <div className="services  w-100  mb-5">
+          <div className="row gaps-crds flex-nowrap my-2">
             <div className="col d-flex align-items-center ">
               <span className="right mx-2">
                 <h1 className="service_no">01.</h1>
@@ -72,7 +72,8 @@ const TypesOfService = () => {
               </span>
             </div>
           </div>
-          <div className="row flex-nowrap my-2 ">
+
+          <div className="row gaps-crds flex-nowrap my-2 ">
             <div className="col d-flex align-items-center ">
               <span className="right mx-2">
                 <h1 className="service_no">04.</h1>

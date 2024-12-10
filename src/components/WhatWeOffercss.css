@@ -2,6 +2,24 @@
   position: relative;
 }
 
+.serv-cards {
+  border-radius: 15px;
+  padding: 0px 5px;
+}
+@media (min-width: 750px) and (max-width: 900px) {
+  .serv-cards {
+    height: 250px;
+    font-size: 10px;
+  }
+  .serv-cards img {
+    width: 35px;
+  }
+
+  .card-subtitle {
+    font-size: 15px;
+  }
+}
+
 .before-element::before {
   content: url("../assets/Images/vctblue.png"); /* URL of the image */
   position: absolute; /* Optional: For precise positioning */
@@ -9,5 +27,3 @@
   top: -30px; /* Center vertically */
   transform: scale(-50%);
 }
-
-
