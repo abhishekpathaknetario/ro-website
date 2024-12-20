@@ -1,8 +1,7 @@
 import React from "react";
 
-import Spare1 from "../../assets/Images/spare-parts/p1.png";
-import Spare2 from "../../assets/Images/spare-parts/p3.png";
-import Spare3 from "../../assets/Images/spare-parts/p2.png";
+import "../btn.css";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // React Font Awesome component
 import { faPhone } from "@fortawesome/free-solid-svg-icons"; // Specific icons
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
@@ -87,31 +86,55 @@ const Spare = () => {
                 <span className="d-flex justify-content-center align-items-center gap-1 mt-4">
                   <button className="btn gap-2 d-flex align-items-center my-3 px-3 container  btn-primary rounded-pill ">
                     <FontAwesomeIcon icon={faPhone} />
-                    <span> Callus</span>
+                    <a
+                      className="btncall"
+                      href="tel:5551234567"
+                      target="_blank"
+                    >
+                      <span> Call Us</span>
+                    </a>
                   </button>
 
                   <button className="btn gap-2 d-flex align-items-center my-3 px-3 container  btn-success rounded-pill ">
                     <FontAwesomeIcon icon={faWhatsapp} />
-                    <span> Whatsapp</span>
+                    <a
+                      href="  https://wa.me/
+                                          
+                                       "
+                      className="btnwhats"
+                      target="_blank"
+                    >
+                      {" "}
+                      <span> Whatsapp</span>
+                    </a>
                   </button>
                 </span>
               </div>
             </section>
+
             <div className="col-12 col-md-8 margin-wepro">
               {/* SEARCH AND DESCRPTION */}
 
               <div className="w-100 w-md-50">
-                <h5>We Provide Best Quality of Spare Parts</h5>
+                <h5 className="fw-bold mt-2 fs-4">
+                  High-Quality RO Purifier Spare Parts and Services{" "}
+                </h5>
 
-                <p className="">
-                  Get premium-quality purifier spare parts for all major brands,
-                  designed to ensure optimal performance and longevity of your
-                  water purifiers. From filters to membranes, find genuine,
-                  reliable replacements with us and maintain pure, safe drinking
-                  water
+                <p className="fw-semibold w-100 w-md-75">
+                  Are you trying to find trustworthy RO purifier services? We
+                  offers premium-quality RO purifier replacement parts for all
+                  popular manufacturers, guaranteeing your water purifier's
+                  stability and optimum performance. Our genuine replacement
+                  parts is assembled to maintain the safety and cleanliness of
+                  your water, whether they be filters, membranes, or other
+                  parts. We effectively handles all of your water purifier
+                  demands by specializing in RO repair, cleaning, and
+                  installation services in Noida and Gurgaon along with to spare
+                  parts.
                 </p>
+
                 {/* Search And Pagination */}
-                <div className=" d-flex align-items-center w-75  ">
+                <div className="d-none d-md-flex  align-items-center w-100 w-md-75  ">
                   <input
                     class="form-control me-2"
                     type="search"
@@ -133,11 +156,6 @@ const Spare = () => {
                       <li class="page-item">
                         <a class="page-link" href="#">
                           2
-                        </a>
-                      </li>
-                      <li class="page-item">
-                        <a class="page-link" href="#">
-                          3
                         </a>
                       </li>
                       <li class="page-item">

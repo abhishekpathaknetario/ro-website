@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
 
 import "./Footer.css";
 
@@ -10,7 +11,6 @@ import {
   faTwitter,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
-import { faF } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
@@ -19,10 +19,13 @@ const Footer = () => {
         <div className="top d-flex justify-content-around ">
           <div className="left">
             <span className="logo">
-              <img src={Logo} alt="" srcset="" />
+              <img src={Logo} />
             </span>
             <span className="description">
-              <p className="w--md-50 w-75  pt-2">
+              <p
+                className="w-md-50 w-75  pt-2"
+                style={{ textAlign: "justify" }}
+              >
                 Lorem ipsum dolor sit amet consectetur. Lectus eleifend orci
                 vitae gravida sit molestie. Tristique porttitor dictum sed at
                 magna venenatis quis ultricies.
@@ -38,10 +41,10 @@ const Footer = () => {
                 <a href="">About</a>
               </div>
               <div className="">
-                <a href="">Service</a>
+                <a to="">Service</a>
               </div>
               <div className="">
-                <a href="">Contact_us</a>
+                <a to="">Contact_us</a>
               </div>
             </div>
           </div>
@@ -54,15 +57,15 @@ const Footer = () => {
                 <p className="px-2">Follow us</p>
               </span>
               <span className="d-flex align-items-end  ">
-                <div className="footer-icon d-flex">
+                <button className="footer-icon d-flex">
                   <FontAwesomeIcon icon={faFacebook} />
-                </div>
-                <div className="d-flex footer-icon">
+                </button>
+                <button className="d-flex footer-icon">
                   <FontAwesomeIcon icon={faTwitter} />
-                </div>
-                <div className="d-flex footer-icon">
+                </button>
+                <button className="d-flex footer-icon">
                   <FontAwesomeIcon icon={faInstagram} />
-                </div>
+                </button>
               </span>
             </div>
           </div>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Helmet } from "react";
 // import "./SmilingMechanic.css";
 import SmileMechanic from "../../assets/Images/services/plumber.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -12,8 +12,9 @@ const Services = () => {
       <section className=" px-3 my-5 my-lg-0 px-lg-5 pe-3 pe-lg-0">
         <div className="d-flex justify-content-between flex-wrap-reverse flex-lg-nowrap gap-4 gap-lg-5">
           <div className="service_info container  col-lg-6 d-flex  align-items-start justify-content-center flex-column">
-            <h1 className="service-heading">
-              Top-notch water purifier service across India, reliable quality.
+            <h1 className="service-heading ">
+              Top-notch <span className="text-primary fw-bold">water</span>{" "}
+              purifier service across India, reliable quality.
             </h1>{" "}
             <p className="service-desc">
               Providing expert water purifier services across India, we
@@ -21,9 +22,11 @@ const Services = () => {
               brands, ensuring safe drinking water and reliable performance with
               quick, professional support nationwide
             </p>
-            <button className="btn px-4 btn-primary rounded-pill">
+            <button className="btn px-4 btn-primary rounded-pill fw-bold">
               <FontAwesomeIcon icon={faPhone} />
-              <span> Call Us</span>
+              <a className="btncall" href="tel:5551234567" target="_blank">
+                <span> Call Us</span>
+              </a>
             </button>
           </div>
 

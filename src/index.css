@@ -1,0 +1,23 @@
+/* Target the scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* Set width for vertical scrollbars */
+  height: 8px; /* Set height for horizontal scrollbars */
+}
+
+/* Style the scrollbar track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Style the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Hover effect for the scrollbar thumb */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
