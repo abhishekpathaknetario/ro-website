@@ -23,6 +23,7 @@ const App = () => {
         <>
           <Navbar />
           <HeroSection />
+          <Footer />
         </>
       ),
     },
@@ -32,6 +33,7 @@ const App = () => {
         <>
           <Navbar />
           <SpareParts />
+          <Footer />
         </>
       ),
     },
@@ -41,6 +43,7 @@ const App = () => {
         <>
           <Navbar />
           <Services />
+          <Footer />
         </>
       ),
     },
@@ -50,6 +53,7 @@ const App = () => {
         <>
           <Navbar />
           <ContactUsPage />
+          <Footer />
         </>
       ),
     },
@@ -59,6 +63,7 @@ const App = () => {
         <>
           <Navbar />
           <CartPage />
+          <Footer />
         </>
       ),
     },
@@ -68,6 +73,7 @@ const App = () => {
         <>
           <Navbar />
           <Paynow />
+          <Footer />
         </>
       ),
     },
@@ -85,7 +91,6 @@ const App = () => {
         <link rel="icon" type="image/x-icon" href={favicon}></link>
       </Helmet>
       <RouterProvider router={router} />
-      <Footer />
     </>
   );
 };

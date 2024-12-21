@@ -38,13 +38,40 @@ const Footer = () => {
                 <a href="#">Home</a>
               </div>
               <div className="">
-                <a href="">About</a>
+                <Link
+                  className={(e) => {
+                    return e.isActive
+                      ? "nav-link text-primary border-2 border-bottom border-primary"
+                      : "nav-link ";
+                  }}
+                  to="/services"
+                >
+                  Services
+                </Link>
               </div>
               <div className="">
-                <a to="">Service</a>
+                <Link
+                  className={(e) => {
+                    return e.isActive
+                      ? "nav-link text-primary border-2 border-bottom border-primary"
+                      : "nav-link ";
+                  }}
+                  to="/spareparts"
+                >
+                  SpareParts
+                </Link>
               </div>
               <div className="">
-                <a to="">Contact_us</a>
+                <Link
+                  className={(e) => {
+                    return e.isActive
+                      ? "nav-link text-primary border-2 border-bottom border-primary"
+                      : "nav-link ";
+                  }}
+                  to="/contactus"
+                >
+                  Contact
+                </Link>
               </div>
             </div>
           </div>
@@ -56,15 +83,21 @@ const Footer = () => {
               <span className="">
                 <p className="px-2">Follow us</p>
               </span>
-              <span className="d-flex align-items-end  ">
+              <span className="d-flex align-items-end ">
                 <button className="footer-icon d-flex">
-                  <FontAwesomeIcon icon={faFacebook} />
+                  <a href="https://www.facebook.com/" target="_blank">
+                    <FontAwesomeIcon icon={faFacebook} />
+                  </a>
                 </button>
                 <button className="d-flex footer-icon">
-                  <FontAwesomeIcon icon={faTwitter} />
+                  <a href="https://x.com/__x" target="_blank">
+                    <FontAwesomeIcon icon={faTwitter} />
+                  </a>
                 </button>
                 <button className="d-flex footer-icon">
-                  <FontAwesomeIcon icon={faInstagram} />
+                  <a href="https://instagram.com" target="_blank">
+                    <FontAwesomeIcon icon={faInstagram} />
+                  </a>
                 </button>
               </span>
             </div>

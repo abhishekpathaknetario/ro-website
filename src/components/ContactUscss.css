@@ -1,7 +1,7 @@
 .form-container {
   background-color: palegoldenrod;
 }
-.justify{
+.justify {
   text-align: center;
 }
 .customBg {
@@ -50,9 +50,6 @@
   input {
     margin: 1rem 0;
   }
-  .justify {
-    text-align: justify;
-  }
 }
 
 @media (min-width: 900px) and (max-width: 989px) {
@@ -65,7 +62,7 @@
   }
 }
 
-@media (min-width: 990px) {
+@media (min-width: 990px) and (max-width: 1358px) {
   .contact-card-container {
     width: 28rem;
     height: 28.5rem;

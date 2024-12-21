@@ -27,10 +27,17 @@ a {
   transition: 0.5s ease-in-out;
   border: 1.5px solid #0d6efd;
 }
+.footer-icon a {
+  color: #0d6efd;
+  transition: 0.5s ease-in-out;
+}
 .footer-icon:hover {
   background: #0d6efd;
   color: white;
   outline: 1.5px solid white;
+}
+.footer-icon:hover.footer-icon a {
+  color: white;
 }
 .footer-social {
   font-size: 13px;

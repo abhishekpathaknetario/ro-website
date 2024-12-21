@@ -137,7 +137,7 @@ const ContactUsPage = () => {
                   </form>{" "}
                 </div>
               </div>
-            </div>
+            </div>{" "}
           </div>
         </div>
       </div>

@@ -9,6 +9,7 @@ import "./Spare.css"; // Create a CSS file for custom styling
 import ProductSection from "./ProductSection";
 import ContactUs from "../ContactUs";
 import TermsAndConditions from "./TermsConditions";
+import ProductPrice from "./ProductPrice";
 
 const Spare = () => {
   return (
@@ -26,61 +27,14 @@ const Spare = () => {
               </span>
 
               <div
-                className="p-3"
+                className="p-3 rounded-3"
                 style={{ height: "28rem", background: "#F8F8F8" }}
               >
-                <input
-                  className="form-control "
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                  style={{ backgroundColor: "#EFEFEF" }}
-                ></input>
-
                 <div
-                  className="col overflow-y-scroll  d-flex text-center flex-column overflow-x-hidden "
+                  className="col overflow-y-scroll  d-flex flex-column overflow-x-hidden "
                   style={{ height: "20rem", padding: "0px 10px" }}
                 >
-                  <span className="row pb-2 border-2 border-bottom  my-1 d-inline ">
-                    <span>Tap, Elbow and Connecter</span>
-                    <span className="text-primary fw-semibold">12</span>
-                  </span>
-                  <span className="row pb-2 border-2 border-bottom  my-1 d-inline ">
-                    <span>Tap, Elbow and Connecter</span>
-                    <span className="text-primary fw-semibold">12</span>
-                  </span>
-                  <span className="row pb-2 border-2 border-bottom  my-1 d-inline ">
-                    <span>Tap, Elbow and Connecter</span>
-                    <span className="text-primary fw-semibold">12</span>
-                  </span>
-                  <span className="row pb-2 border-2 border-bottom  my-1 d-inline ">
-                    <span>Tap, Elbow and Connecter</span>
-                    <span className="text-primary fw-semibold">12</span>
-                  </span>
-                  <span className="row pb-2 border-2 border-bottom  my-1 d-inline ">
-                    <span>Tap, Elbow and Connecter</span>
-                    <span className="text-primary fw-semibold">12</span>
-                  </span>
-                  <span className="row pb-2 border-2 border-bottom  my-1 d-inline ">
-                    <span>Tap, Elbow and Connecter</span>
-                    <span className="text-primary fw-semibold">12</span>
-                  </span>
-                  <span className="row pb-2 border-2 border-bottom  my-1 d-inline ">
-                    <span>Tap, Elbow and Connecter</span>
-                    <span className="text-primary fw-semibold">12</span>
-                  </span>
-                  <span className="row pb-2 border-2 border-bottom  my-1 d-inline ">
-                    <span>Tap, Elbow and Connecter</span>
-                    <span className="text-primary fw-semibold">12</span>
-                  </span>
-                  <span className="row pb-2 border-2 border-bottom  my-1 d-inline ">
-                    <span>Tap, Elbow and Connecter</span>
-                    <span className="text-primary fw-semibold">12</span>
-                  </span>
-                  <span className="row pb-2 border-2 border-bottom  my-1 d-inline ">
-                    <span>Tap, Elbow and Connecter</span>
-                    <span className="text-primary fw-semibold">12</span>
-                  </span>
+                  <ProductPrice />
                 </div>
 
                 <span className="d-flex justify-content-center align-items-center gap-1 mt-4">
@@ -111,7 +65,6 @@ const Spare = () => {
                 </span>
               </div>
             </section>
-
             <div className="col-12 col-md-8 margin-wepro">
               {/* SEARCH AND DESCRPTION */}
 
@@ -120,7 +73,7 @@ const Spare = () => {
                   High-Quality RO Purifier Spare Parts and Services{" "}
                 </h5>
 
-                <p className="fw-semibold w-100 w-md-75">
+                <p className="w-100 w-md-75">
                   Are you trying to find trustworthy RO purifier services? We
                   offers premium-quality RO purifier replacement parts for all
                   popular manufacturers, guaranteeing your water purifier's
@@ -132,40 +85,6 @@ const Spare = () => {
                   installation services in Noida and Gurgaon along with to spare
                   parts.
                 </p>
-
-                {/* Search And Pagination */}
-                <div className="d-none d-md-flex  align-items-center w-100 w-md-75  ">
-                  <input
-                    class="form-control me-2"
-                    type="search"
-                    placeholder="Search"
-                    aria-label="Search"
-                  ></input>
-                  <nav aria-label="Page navigation example">
-                    <ul class="pagination m-0">
-                      <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Previous">
-                          <span aria-hidden="true">&laquo;</span>
-                        </a>
-                      </li>
-                      <li class="page-item">
-                        <a class="page-link" href="#">
-                          1
-                        </a>
-                      </li>
-                      <li class="page-item">
-                        <a class="page-link" href="#">
-                          2
-                        </a>
-                      </li>
-                      <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Next">
-                          <span aria-hidden="true">&raquo;</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </nav>
-                </div>
               </div>
 
               {/*Product galarry  here  */}

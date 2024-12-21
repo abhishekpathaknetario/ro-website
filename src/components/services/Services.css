@@ -14,7 +14,11 @@
 }
 
 .service-desc {
+<<<<<<< HEAD
+  font-size: 0.8rem;
+=======
   font-size: 1rem;
+>>>>>>> origin/master
 }
 .service_info {
   margin: 15px 0px;
