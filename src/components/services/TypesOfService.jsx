@@ -19,7 +19,7 @@ const TypesOfService = () => {
     <>
       <div className="container-area my-5 px-3 d-flex flex-column align-items-center ">
         <div className="typesservs">
-          <h1>We Provide Six Types of Services</h1>
+          <h1 className="fw-bold">We Provide Six Types of Services</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur. Aliquet rutrum at sit
             ultrices. In metus lacus euismod elit egestas. Mauris urna tristique
@@ -38,7 +38,7 @@ const TypesOfService = () => {
               </span>
               <span className="left ">
                 <span className="top">
-                  <img src={Icon1} alt="" srcset="" />
+                  <img src={Icon1} />
                 </span>
                 <span className="bottom">
                   <h5>Ultrafiltration (UF)</h5>
@@ -51,7 +51,7 @@ const TypesOfService = () => {
               </span>
               <span className="left ">
                 <span className="top">
-                  <img src={Icon2} alt="" srcset="" />
+                  <img src={Icon2} />
                 </span>
                 <span className="bottom">
                   <h5>Reverse Osmosis (RO) </h5>
@@ -64,7 +64,7 @@ const TypesOfService = () => {
               </span>
               <span className="left ">
                 <span className="top">
-                  <img src={Icon3} alt="" srcset="" />
+                  <img src={Icon3} />
                 </span>
                 <span className="bottom">
                   <h5>AMC (Service))</h5>
@@ -80,7 +80,7 @@ const TypesOfService = () => {
               </span>
               <span className="left ">
                 <span className="top">
-                  <img src={Icon4} alt="" srcset="" />
+                  <img src={Icon4} />
                 </span>
                 <span className="bottom">
                   <h5>Installation</h5>
@@ -93,7 +93,7 @@ const TypesOfService = () => {
               </span>
               <span className="left ">
                 <span className="top">
-                  <img src={Icon5} alt="" srcset="" />
+                  <img src={Icon5} />
                 </span>
                 <span className="bottom">
                   <h5>Uninstallation</h5>
@@ -106,7 +106,7 @@ const TypesOfService = () => {
               </span>
               <span className="left ">
                 <span className="top">
-                  <img src={Icon6} alt="" srcset="" />
+                  <img src={Icon6} />
                 </span>
                 <span className="bottom">
                   <h5>Ultrafiltration (UF)</h5>
@@ -116,13 +116,24 @@ const TypesOfService = () => {
           </div>
         </div>
         <div className="d-flex justify-content-center justify-content-md-start">
-          <button className="btn px-4 px-xs-4 btn-primary rounded-pill">
+          <button className="btn px-4 px-xs-4 btn-primary rounded-pill fw-semibold">
             <FontAwesomeIcon icon={faPhone} />
-            <span> Call Us</span>
+            <a className="btncall" href="tel:5551234567" target="_blank">
+              <span> Call Us</span>
+            </a>
           </button>
-          <button className="btn px-3 btn-success rounded-pill mx-4">
+          <button className="btn px-3 btn-success rounded-pill mx-4 fw-semibold">
             <FontAwesomeIcon icon={faWhatsapp} />
-            <span> Whatsapp</span>
+            <a
+              href="  https://wa.me/
+                              
+                           "
+              className="btnwhats"
+              target="_blank"
+            >
+              {" "}
+              <span> Whatsapp</span>
+            </a>
           </button>
         </div>
         <div>

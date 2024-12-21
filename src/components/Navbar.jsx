@@ -2,7 +2,9 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
-import { NavLink } from "react-router-dom"; // Import Link from react-router-dom
+import { Link, NavLink } from "react-router-dom"; // Import Link from react-router-dom
+
+import "./Btn.css";
 
 const Navbar = () => {
   return (
@@ -20,9 +22,9 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <a className="navbar-brand" href="#">
+        <Link className="navbar-brand" to="/">
           <img src="/src/assets/Images/logo.png" alt="" />
-        </a>
+        </Link>
 
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav fw-semibold gap-3">
@@ -78,7 +80,7 @@ const Navbar = () => {
               </NavLink>
             </li>
 
-            <li className="nav-item">
+            <li className="nav-item mb-3">
               <NavLink
                 className={(e) => {
                   return e.isActive
@@ -92,8 +94,11 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <button className="btn btn-primary rounded-pill">
-          Call Us <FontAwesomeIcon icon={faPhone} />
+        <button className="btn  btn-primary rounded-pill">
+          <FontAwesomeIcon icon={faPhone} />
+          <a className="btncall" href="tel:5551234567" target="_blank">
+            <span> Call Us</span>
+          </a>
         </button>
         <NavLink
           className="mx-4 md-mx-5 d-none d-lg-block text-primary fs-4"

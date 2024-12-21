@@ -1,6 +1,7 @@
 .margin-wepro {
   margin: 10px 50px;
 }
+
 @media (max-width: 900px) {
   .margin-wepro {
     margin: 0px;

@@ -1,12 +1,9 @@
-import React from "react";
+import React, { Helmet } from "react";
 
 import "./CartPage.css";
 
 import P1 from "../../assets/Images/spare-parts/p1.png";
 import P2 from "../../assets/Images/spare-parts/p2.png";
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTrash } from "@fortawesome/free-solid-svg-icons";
 
 const CartPage = () => {
   return (
@@ -25,9 +22,10 @@ const CartPage = () => {
                     className="container cart-card p-2 rounded-4"
                     style={{ background: "#F8F8F8" }}
                   >
-                    <div className="row align-items-center">
+                    <div className="row align-items-center gap-0 gap-md-5">
                       {/* Image Container */}
                       <div className="col-4 col-sm-3 col-md-2">
+<<<<<<< HEAD
                         <div className="img-container rounded-4">
                           <img src={P1} alt="Product" className="img-fluid" />
                         </div>
@@ -70,6 +68,9 @@ const CartPage = () => {
                       {/* Image Container */}
                       <div className="col-4 col-sm-3 col-md-2">
                         <div className="img-container rounded-4">
+=======
+                        <div className="img-container rounded-4 container">
+>>>>>>> origin/master
                           <img src={P1} alt="Product" className="img-fluid" />
                         </div>
                       </div>
@@ -93,6 +94,13 @@ const CartPage = () => {
                     </div>
                   </div>
                 </div>
+
+                {/* Additional Section */}
+              </div>
+            </div>
+            <div className="container-fluid w-100">
+              <div className="mx-2">
+                <div className="row p-2"></div>
 
                 {/* Additional Section */}
                 <div className="row mt-3">

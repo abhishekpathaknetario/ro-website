@@ -5,6 +5,10 @@ a {
 }
 .description p {
   font-size: 0.8rem;
+<<<<<<< HEAD
+=======
+  font-weight: 500;
+>>>>>>> origin/master
 }
 @media (min-width: 1570px) {
   a {
@@ -22,7 +26,14 @@ a {
   align-items: center;
   background: white;
   border-radius: 50%;
-  color: blue;
+  color: #0d6efd;
+  transition: 0.5s ease-in-out;
+  border: 1.5px solid #0d6efd;
+}
+.footer-icon:hover {
+  background: #0d6efd;
+  color: white;
+  outline: 1.5px solid white;
 }
 .footer-social {
   font-size: 13px;
@@ -31,3 +42,14 @@ a {
 .right {
   margin-right: 20px;
 }
+<<<<<<< HEAD
+=======
+.right div div a {
+  transition: 0.5s ease-in-out;
+}
+
+.right div div a:hover {
+  color: #0d6efd;
+  border-bottom: 1.5px solid #0d6efd;
+}
+>>>>>>> origin/master

@@ -1,6 +1,12 @@
 .form-container {
   background-color: palegoldenrod;
 }
+<<<<<<< HEAD
+=======
+.justify{
+  text-align: center;
+}
+>>>>>>> origin/master
 .customBg {
   background-image: url("../assets/Images/ContactUS.png");
   background-size: cover;
@@ -23,6 +29,12 @@
   input {
     margin: 1rem 0;
   }
+<<<<<<< HEAD
+=======
+  .justify {
+    text-align: justify;
+  }
+>>>>>>> origin/master
 }
 @media (min-width: 450px) and (max-width: 750px) {
   .contact-card-container {
@@ -32,6 +44,12 @@
   input {
     margin: 1rem 0;
   }
+<<<<<<< HEAD
+=======
+  .justify {
+    text-align: justify;
+  }
+>>>>>>> origin/master
 }
 @media (min-width: 750px) and (max-width: 899px) {
   .contact-card-container {
@@ -41,6 +59,12 @@
   input {
     margin: 1rem 0;
   }
+<<<<<<< HEAD
+=======
+  .justify {
+    text-align: justify;
+  }
+>>>>>>> origin/master
 }
 
 @media (min-width: 900px) and (max-width: 989px) {
@@ -53,7 +77,11 @@
   }
 }
 
+<<<<<<< HEAD
 @media (min-width: 990px) and (max-width: 1358px) {
+=======
+@media (min-width: 990px) {
+>>>>>>> origin/master
   .contact-card-container {
     width: 28rem;
     height: 28.5rem;

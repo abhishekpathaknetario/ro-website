@@ -9,16 +9,20 @@ function WhatWeOffer() {
       <div>
         {/* TOP HEADING AND DESCRIPTION */}
         <div className="text-center d-flex flex-column align-items-center my-5 ">
+<<<<<<< HEAD
           <p className="text-primary fs-4 fw-semibold  py-2 ">WHAT WE OFFER</p>
+=======
+          <p className="text-primary fs-3  py-2 fw-bold ">WHAT WE OFFER</p>
+>>>>>>> origin/master
 
           <h1 className="fs-2 fs-md-6 py-2 before-element">
-            Lorem Ipsum Dolor Sit Amet Consectetur.
+            Top-Quality Water Purifier Services{" "}
           </h1>
-          <p className="fs-6 fw-medium  my-3">
-            Our water purifier service specializes in professional maintenance,
-            repairs, and installations for all major brands, ensuring optimal
-            performance and longevity. We also offer a wide range of genuine
-            spare parts, including filters, membranes, and cartridges.{" "}
+          <p className="fs-6 fw-medium  w-100 w-md-75 my-3">
+            From installation and maintenance to repairs we ensure your water is
+            always pure and safe. Experience crystal clear water every day with
+            our reliable and affordable services. Your health and satisfaction
+            are our top priorities.
           </p>
         </div>
 
@@ -31,6 +35,7 @@ function WhatWeOffer() {
               <span>
                 <img src={Frame1} alt="" />
               </span>
+<<<<<<< HEAD
               <h6 className="card-subtitle my-3 text-dark ">Home Services </h6>
               <p className="text-dark fw-normal ">
                 Lorem ipsum dolor sit amet consectetur. Est et congue habitasse
@@ -40,6 +45,21 @@ function WhatWeOffer() {
               <a
                 href="#"
                 className="text-decoration-none text-dark fw-semibold"
+=======
+              <h6 className="card-subtitle my-3 text-dark fw-bold ">
+                1. Home Services{" "}
+              </h6>
+              <p className="text-dark card-paragraph  fw-normal ">
+                Ensure clean, safe water with our expert water purifier
+                services. We provide installation, maintenance, and repairs to
+                keep your system running smoothly. Trust us to handle all your
+                water purifier needs with care and professionally.
+              </p>
+
+              <a
+                href="#"
+                className="readmore text-decoration-none  fw-semibold"
+>>>>>>> origin/master
               >
                 Read more
               </a>
@@ -50,6 +70,7 @@ function WhatWeOffer() {
               <span>
                 <img src={Frame2} alt="" />
               </span>
+<<<<<<< HEAD
               <h6 className="card-subtitle my-3 text-dark">Installation</h6>
               <p className=" fw-normal">
                 Lorem ipsum dolor sit amet consectetur. Est et congue habitasse
@@ -59,6 +80,21 @@ function WhatWeOffer() {
               <a
                 href="#"
                 className="text-decoration-none text-dark fw-semibold"
+=======
+              <h6 className="card-subtitle my-3 text-dark fw-bold">
+                2. Installation and Uninstallation
+              </h6>
+              <p className="  text-dark card-paragraph   fw-normal ">
+                Our water purifier installation/uninstallation services offer
+                quick and reliable setup or remove your system. Skilled
+                technicians ensure perfect functioning, providing clean and safe
+                water without hassle. Trust us for a professional and expert
+                experience.
+              </p>
+              <a
+                href="#"
+                className="readmore text-decoration-none  fw-semibold"
+>>>>>>> origin/master
               >
                 Read more
               </a>
@@ -69,6 +105,7 @@ function WhatWeOffer() {
               <span>
                 <img src={Frame3} alt="" />
               </span>
+<<<<<<< HEAD
               <h6 className="card-subtitle my-3 text-dark">Spare Parts</h6>
               <p className="fw-normal">
                 Lorem ipsum dolor sit amet consectetur. Est et congue habitasse
@@ -78,6 +115,21 @@ function WhatWeOffer() {
               <a
                 href="#"
                 className="text-decoration-none text-dark fw-semibold"
+=======
+              <h6 className="card-subtitle my-3 text-dark fw-bold">
+                3. Spare Parts Replacement
+              </h6>
+              <p className=" text-dark card-paragraph   fw-normal ">
+                Our water purifier spare parts service offers high-quality
+                replacement parts to keep your system running smoothly. Choose
+                from a broad range of certified parts and let our expert
+                technicians ensure your purifier stays efficient and effective.
+                Enjoy clean, safe water with our loyal and professional support.
+              </p>
+              <a
+                href="#"
+                className="readmore text-decoration-none  fw-semibold"
+>>>>>>> origin/master
               >
                 Read more
               </a>
