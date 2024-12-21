@@ -5,10 +5,7 @@ a {
 }
 .description p {
   font-size: 0.8rem;
-<<<<<<< HEAD
-=======
   font-weight: 500;
->>>>>>> origin/master
 }
 @media (min-width: 1570px) {
   a {
@@ -42,8 +39,6 @@ a {
 .right {
   margin-right: 20px;
 }
-<<<<<<< HEAD
-=======
 .right div div a {
   transition: 0.5s ease-in-out;
 }
@@ -52,4 +47,3 @@ a {
   color: #0d6efd;
   border-bottom: 1.5px solid #0d6efd;
 }
->>>>>>> origin/master

@@ -45,14 +45,6 @@ const ContactUs = () => {
     <>
       <div className="container ">
         <div className="py-5">
-<<<<<<< HEAD
-          <p className="fs-4 fw-semibold text-center my-3  text-primary ">
-            Contact us
-          </p>
-          <h1 className="text-center mb-5 fs-3">
-            Our Team Contact us As Soon As Possible
-          </h1>
-=======
           <p className="fs-3 fw-semibold text-center my-3 fw-bold  text-primary ">
             Get in Touch with Us{" "}
           </p>
@@ -62,7 +54,6 @@ const ContactUs = () => {
             purifier installation to troubleshooting, ensuring your water
             purifier works perfectly.
           </p>
->>>>>>> origin/master
 
           <div>
             <div className="">
@@ -100,15 +91,6 @@ const ContactUs = () => {
                   >
                     <div className="p-4">
                       <div>
-<<<<<<< HEAD
-                        <p>Please fill your contact details. </p>
-
-                        <input
-                          type="email"
-                          className="form-control p-2 px-5"
-                          id="exampleInputEmail1"
-                          placeholder="Your Name"
-=======
                         <p className="fw-semibold">
                           Please fill your contact details.{" "}
                         </p>
@@ -122,17 +104,10 @@ const ContactUs = () => {
                           placeholder="Your Name"
                           value={user.name}
                           onChange={handleInputs}
->>>>>>> origin/master
                         ></input>
                       </div>
                       <div>
                         <input
-<<<<<<< HEAD
-                          type="password"
-                          className="form-control p-2 px-5  "
-                          id="exampleInputPassword1"
-                          placeholder="Contact Number"
-=======
                           type="text"
                           className="form-control p-2 px-3"
                           id="phome"
@@ -141,20 +116,10 @@ const ContactUs = () => {
                           autoComplete="off"
                           value={user.phone}
                           onChange={handleInputs}
->>>>>>> origin/master
                         ></input>
                       </div>
                       <div>
                         <input
-<<<<<<< HEAD
-                          type="password"
-                          className="form-control p-2 px-5"
-                          id="exampleInputPassword1"
-                          placeholder="Your Email"
-                        ></input>
-                      </div>
-                      <button type="submit" className="btn w-100 btn-primary">
-=======
                           type="mail"
                           className="form-control p-2 px-3  "
                           name="mail"
@@ -169,7 +134,6 @@ const ContactUs = () => {
                         type="submit"
                         className="btn w-100 btn-primary fw-semibold"
                       >
->>>>>>> origin/master
                         Submit
                       </button>
                     </div>

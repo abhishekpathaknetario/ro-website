@@ -9,19 +9,6 @@ function Ratings() {
       <div>
         {/* TOP HEADING AND DESCRIPTION */}
         <div className="text-center d-flex flex-column align-items-center">
-<<<<<<< HEAD
-          <p className="text-primary fs-4 fw-semibold">
-            What Our Customer Says
-          </p>
-
-          <h1 className="fs-3">Review & Ratings</h1>
-          <p className=" w-100 w-sm-75  my-3">
-            Lorem ipsum dolor sit amet consectetur. Pharetra odio turpis mauris
-            dolor massa aliquet sociis in condimentum. In purus semper mauris
-            pharetra fringilla porta mauris. In integer commodo odio sed elit
-            condimentum. Ultrices hendrerit tincidunt facilisi id. Morbi amet
-            vestibulum at lectus lectus hac commodo vitae ipsum.
-=======
           <p className="text-primary fs-1 fw-bold">What Our Customer Says</p>
 
           <h1 className="fs-2 fs-md-6 fw-bold">Review & Ratings</h1>
@@ -34,7 +21,6 @@ function Ratings() {
             happy customers and see why we are trusted for our expertise and
             dedication. Your feedback and satisfaction drive us to maintain our
             high standards and continuously improve our services.
->>>>>>> origin/master
           </p>
         </div>
 

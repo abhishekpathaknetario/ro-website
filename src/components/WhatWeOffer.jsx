@@ -9,11 +9,7 @@ function WhatWeOffer() {
       <div>
         {/* TOP HEADING AND DESCRIPTION */}
         <div className="text-center d-flex flex-column align-items-center my-5 ">
-<<<<<<< HEAD
           <p className="text-primary fs-4 fw-semibold  py-2 ">WHAT WE OFFER</p>
-=======
-          <p className="text-primary fs-3  py-2 fw-bold ">WHAT WE OFFER</p>
->>>>>>> origin/master
 
           <h1 className="fs-2 fs-md-6 py-2 before-element">
             Top-Quality Water Purifier Services{" "}
@@ -35,17 +31,6 @@ function WhatWeOffer() {
               <span>
                 <img src={Frame1} alt="" />
               </span>
-<<<<<<< HEAD
-              <h6 className="card-subtitle my-3 text-dark ">Home Services </h6>
-              <p className="text-dark fw-normal ">
-                Lorem ipsum dolor sit amet consectetur. Est et congue habitasse
-                mattis consectetur viverra nec. Sit arcu etiam fringilla vel
-                tincidunt. Purus viverra sed blandit a.
-              </p>
-              <a
-                href="#"
-                className="text-decoration-none text-dark fw-semibold"
-=======
               <h6 className="card-subtitle my-3 text-dark fw-bold ">
                 1. Home Services{" "}
               </h6>
@@ -59,7 +44,6 @@ function WhatWeOffer() {
               <a
                 href="#"
                 className="readmore text-decoration-none  fw-semibold"
->>>>>>> origin/master
               >
                 Read more
               </a>
@@ -70,17 +54,6 @@ function WhatWeOffer() {
               <span>
                 <img src={Frame2} alt="" />
               </span>
-<<<<<<< HEAD
-              <h6 className="card-subtitle my-3 text-dark">Installation</h6>
-              <p className=" fw-normal">
-                Lorem ipsum dolor sit amet consectetur. Est et congue habitasse
-                mattis consectetur viverra nec. Sit arcu etiam fringilla vel
-                tincidunt. Purus viverra sed blandit a.
-              </p>
-              <a
-                href="#"
-                className="text-decoration-none text-dark fw-semibold"
-=======
               <h6 className="card-subtitle my-3 text-dark fw-bold">
                 2. Installation and Uninstallation
               </h6>
@@ -94,7 +67,6 @@ function WhatWeOffer() {
               <a
                 href="#"
                 className="readmore text-decoration-none  fw-semibold"
->>>>>>> origin/master
               >
                 Read more
               </a>
@@ -105,17 +77,6 @@ function WhatWeOffer() {
               <span>
                 <img src={Frame3} alt="" />
               </span>
-<<<<<<< HEAD
-              <h6 className="card-subtitle my-3 text-dark">Spare Parts</h6>
-              <p className="fw-normal">
-                Lorem ipsum dolor sit amet consectetur. Est et congue habitasse
-                mattis consectetur viverra nec. Sit arcu etiam fringilla vel
-                tincidunt. Purus viverra sed blandit a.
-              </p>
-              <a
-                href="#"
-                className="text-decoration-none text-dark fw-semibold"
-=======
               <h6 className="card-subtitle my-3 text-dark fw-bold">
                 3. Spare Parts Replacement
               </h6>
@@ -129,7 +90,6 @@ function WhatWeOffer() {
               <a
                 href="#"
                 className="readmore text-decoration-none  fw-semibold"
->>>>>>> origin/master
               >
                 Read more
               </a>

@@ -25,52 +25,7 @@ const CartPage = () => {
                     <div className="row align-items-center gap-0 gap-md-5">
                       {/* Image Container */}
                       <div className="col-4 col-sm-3 col-md-2">
-<<<<<<< HEAD
-                        <div className="img-container rounded-4">
-                          <img src={P1} alt="Product" className="img-fluid" />
-                        </div>
-                      </div>
-
-                      {/* Product Info */}
-                      <div className="col-8 col-sm-9 col-md-8">
-                        <div className="cart-card-info">
-                          <h5 className="text-truncate">
-                            Tap, Elbow and Connecter Tap, Elbow and Connecter
-                          </h5>
-                          <p>
-                            Price: <span className="text-primary">$15.66</span>
-                          </p>
-                        </div>
-
-                        <div className="price d-flex  justify-content-between ">
-                          <p className="mb-0 ">Quantity</p>
-                          <p className="mb-0">Total Price $25.66</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Additional Section */}
-                <div className="row mt-3">
-                  <div className="col-12 col-lg-4"></div>
-                </div>
-              </div>
-            </div>
-            <div className="container-fluid w-100">
-              <div className="mx-2">
-                <div className="row p-2">
-                  <div
-                    className="container cart-card p-2 rounded-4"
-                    style={{ background: "#F8F8F8" }}
-                  >
-                    <div className="row align-items-center">
-                      {/* Image Container */}
-                      <div className="col-4 col-sm-3 col-md-2">
-                        <div className="img-container rounded-4">
-=======
                         <div className="img-container rounded-4 container">
->>>>>>> origin/master
                           <img src={P1} alt="Product" className="img-fluid" />
                         </div>
                       </div>

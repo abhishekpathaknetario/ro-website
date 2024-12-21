@@ -1,13 +1,7 @@
 import React from "react";
 
-<<<<<<< HEAD
-import Spare1 from "../../assets/Images/spare-parts/p1.png";
-import Spare2 from "../../assets/Images/spare-parts/p3.png";
-import Spare3 from "../../assets/Images/spare-parts/p2.png";
-=======
 import "../btn.css";
 
->>>>>>> origin/master
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // React Font Awesome component
 import { faPhone } from "@fortawesome/free-solid-svg-icons"; // Specific icons
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
@@ -92,9 +86,6 @@ const Spare = () => {
                 <span className="d-flex justify-content-center align-items-center gap-1 mt-4">
                   <button className="btn gap-2 d-flex align-items-center my-3 px-3 container  btn-primary rounded-pill ">
                     <FontAwesomeIcon icon={faPhone} />
-<<<<<<< HEAD
-                    <span> Callus</span>
-=======
                     <a
                       className="btncall"
                       href="tel:5551234567"
@@ -102,14 +93,10 @@ const Spare = () => {
                     >
                       <span> Call Us</span>
                     </a>
->>>>>>> origin/master
                   </button>
 
                   <button className="btn gap-2 d-flex align-items-center my-3 px-3 container  btn-success rounded-pill ">
                     <FontAwesomeIcon icon={faWhatsapp} />
-<<<<<<< HEAD
-                    <span> Whatsapp</span>
-=======
                     <a
                       href="  https://wa.me/
                                           
@@ -120,32 +107,14 @@ const Spare = () => {
                       {" "}
                       <span> Whatsapp</span>
                     </a>
->>>>>>> origin/master
                   </button>
                 </span>
               </div>
             </section>
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
             <div className="col-12 col-md-8 margin-wepro">
               {/* SEARCH AND DESCRPTION */}
 
               <div className="w-100 w-md-50">
-<<<<<<< HEAD
-                <h5>We Provide Best Quality of Spare Parts</h5>
-
-                <p className="">
-                  Get premium-quality purifier spare parts for all major brands,
-                  designed to ensure optimal performance and longevity of your
-                  water purifiers. From filters to membranes, find genuine,
-                  reliable replacements with us and maintain pure, safe drinking
-                  water
-                </p>
-                {/* Search And Pagination */}
-                <div className=" d-flex align-items-center w-75  ">
-=======
                 <h5 className="fw-bold mt-2 fs-4">
                   High-Quality RO Purifier Spare Parts and Services{" "}
                 </h5>
@@ -165,7 +134,6 @@ const Spare = () => {
 
                 {/* Search And Pagination */}
                 <div className="d-none d-md-flex  align-items-center w-100 w-md-75  ">
->>>>>>> origin/master
                   <input
                     class="form-control me-2"
                     type="search"
@@ -190,14 +158,6 @@ const Spare = () => {
                         </a>
                       </li>
                       <li class="page-item">
-<<<<<<< HEAD
-                        <a class="page-link" href="#">
-                          3
-                        </a>
-                      </li>
-                      <li class="page-item">
-=======
->>>>>>> origin/master
                         <a class="page-link" href="#" aria-label="Next">
                           <span aria-hidden="true">&raquo;</span>
                         </a>
