@@ -9,7 +9,7 @@ function WhatWeOffer() {
       <div>
         {/* TOP HEADING AND DESCRIPTION */}
         <div className="text-center d-flex flex-column align-items-center my-5 ">
-          <p className="text-primary fs-4 fw-semibold  py-2 ">WHAT WE OFFER</p>
+          <p className="text-primary fw-bold fs-2 fw-semibold  py-2 ">WHAT WE OFFER</p>
 
           <h1 className="fs-2 fs-md-6 py-2 before-element">
             Top-Quality Water Purifier Services{" "}

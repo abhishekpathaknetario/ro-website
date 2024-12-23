@@ -26,9 +26,10 @@ const Footer = () => {
                 className="w-md-50 w-75  pt-2"
                 style={{ textAlign: "justify" }}
               >
-                Lorem ipsum dolor sit amet consectetur. Lectus eleifend orci
-                vitae gravida sit molestie. Tristique porttitor dictum sed at
-                magna venenatis quis ultricies.
+                Your trusted destination for high-quality water purifiers in
+                Noida. We provide a wide range of top brands, expert guidance,
+                and reliable after-sales support to ensure safe and clean
+                drinking water for your home and office.
               </p>
             </span>
           </div>
@@ -105,7 +106,10 @@ const Footer = () => {
         </div>
 
         <div className="border-top text-center pt-4  border-secondary mt-5">
-          <p>All rights reserved by netario innovations private limited</p>
+          <p>
+            All rights reserved by <span className="text-primary">© Netario innovations</span> private
+            limited
+          </p>
         </div>
       </footer>
     </>

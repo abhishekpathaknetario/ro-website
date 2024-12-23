@@ -5,7 +5,9 @@
   h5 {
     font-size: 18px;
   }
-
+  .container-area {
+    padding: 50px;
+  }
   .services img {
     width: 3rem;
   }
@@ -17,6 +19,7 @@
   .typesservs {
     margin-top: 10vh;
     margin-bottom: 5vh;
+    margin-left: 10px;
   }
 
   .services {
@@ -67,5 +70,8 @@
   .typesservs {
     padding: 0;
     font-size: 0.8rem;
+  }
+  .container-area {
+    padding: 15px;
   }
 }

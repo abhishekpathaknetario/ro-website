@@ -77,7 +77,7 @@ const products = [
   {
     id: 13,
     image: product13,
-    title: "Carbon, Sediment, Membrane and Spun Filters",
+    title: "Carbon, Sediment, Membrane, Spun Filters",
     price: "₹2250",
   },
 ];
@@ -87,7 +87,6 @@ const ProductCard = ({ product }) => (
     className="card"
     style={{
       width: "90%",
-      height: "350px",
       padding: "10px 0px",
       boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
       fontSize: "10px",
@@ -147,9 +146,12 @@ const ProductSection = () => {
         className="w-100 w-md-50 w-lg-25  overflow-y-scroll my-5"
         style={{ height: "70vh" }}
       >
-        <div className="product-list row me-0 row-cols-2 row-cols-md-2 row-cols-lg-3 g-4">
+        <div className="product-list row  d-flex justify-content-center  row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           {filteredProducts.map((product) => (
-            <div className="col" key={product.id}>
+            <div
+              className="col  d-flex justify-content-center"
+              key={product.id}
+            >
               <ProductCard product={product} />{" "}
             </div>
           ))}

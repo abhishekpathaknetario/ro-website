@@ -17,17 +17,35 @@ import Ratings from "../Ratings";
 const TypesOfService = () => {
   return (
     <>
-      <div className="container-area my-5 px-3 d-flex flex-column align-items-center ">
+      <div className="container-area my-5  d-flex flex-column">
         <div className="typesservs">
           <h1 className="fw-bold">We Provide Six Types of Services</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Aliquet rutrum at sit
-            ultrices. In metus lacus euismod elit egestas. Mauris urna tristique
-            viverra in rhoncus nunc neque. Lectus congue vestibulum in risus
-            hendrerit auctor tellus. Viverra quam quisque lectus tortor eleifend
-            molestie viverra. A ut adipiscing proin risus ligula. Vitae
-            adipiscing viverra feugiat diam elementum nec arcu odio.{" "}
+            We offer a comprehensive range of water purifier services to cater
+            to all your needs. Our services include:
           </p>
+          <ul>
+            <li>
+              Ultrafiltration (UF): Ensuring superior filtration performance
+              with expert servicing and genuine spare parts for UF systems.
+            </li>{" "}
+            <li>
+              Reverse Osmosis (RO): Reliable maintenance, repair, and
+              installation services to keep your RO system in top condition.
+            </li>{" "}
+            <li>
+              Annual Maintenance Contract (AMC): Regular upkeep and care with
+              our hassle-free AMC packages.
+            </li>{" "}
+            <li>
+              Installation: Professional installation services for all types of
+              water purifiers, ensuring optimal performance.
+            </li>{" "}
+            <li>
+              Uninstallation: Safe and careful uninstallation of water purifiers
+              as per your requirements.
+            </li>
+          </ul>
         </div>
 
         <div className="services  w-100  mb-5">
@@ -115,7 +133,7 @@ const TypesOfService = () => {
             </div>
           </div>
         </div>
-        <div className="d-flex justify-content-center justify-content-md-start">
+        <div className="d-flex  justify-content-center ">
           <button className="btn px-4 px-xs-4 btn-primary rounded-pill fw-semibold">
             <FontAwesomeIcon icon={faPhone} />
             <a className="btncall" href="tel:5551234567" target="_blank">

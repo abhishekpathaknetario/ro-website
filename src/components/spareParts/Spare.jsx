@@ -37,7 +37,7 @@ const Spare = () => {
                   <ProductPrice />
                 </div>
 
-                <span className="d-flex justify-content-center align-items-center gap-1 mt-4">
+                <span className="d-flex justify-content-center align-items-center px-5 gap-1 mt-4">
                   <button className="btn gap-2 d-flex align-items-center my-3 px-3 container  btn-primary rounded-pill ">
                     <FontAwesomeIcon icon={faPhone} />
                     <a

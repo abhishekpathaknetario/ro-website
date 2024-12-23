@@ -62,7 +62,7 @@
   }
 }
 
-@media (min-width: 990px) and (max-width: 1358px) {
+@media (min-width: 990px) {
   .contact-card-container {
     width: 28rem;
     height: 28.5rem;

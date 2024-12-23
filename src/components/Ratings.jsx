@@ -44,19 +44,19 @@ function Ratings() {
                 src={Googel}
                 style={{ width: "55px" }}
                 className="my-3"
-                srcset=""
+                
               />
               <img
                 src={Stars}
                 style={{ width: "85px" }}
                 className="my-2"
                 alt=""
-                srcset=""
+                
               />
 
               <p className="card-text my-3" style={{ fontSize: "14px" }}>
-                Lorem ipsum dolor sit amet consectetur. Tellus sit nibh elit
-                eget. Sociis netus ultrices facilisis ullamcorper.
+                Excellent service at  in Noida! Great product range,
+                helpful staff, and quick installation. Highly recommend!
               </p>
               <div className="d-flex flex-row align-items-center justify-content-around w-100  ">
                 <div>
@@ -64,7 +64,7 @@ function Ratings() {
                 </div>
                 <div>
                   <h6 style={{ fontSize: "12px", marginTop: "10px" }}>Aman</h6>
-                  <p style={{ fontSize: "10px" }}>12/12/2020</p>
+                  <p style={{ fontSize: "10px" }}>22/12/2024</p>
                 </div>
               </div>
             </div>
@@ -84,19 +84,19 @@ function Ratings() {
                 src={Googel}
                 style={{ width: "60px" }}
                 className="my-3"
-                srcset=""
+                
               />
               <img
                 src={Stars}
                 style={{ width: "100px" }}
                 className="my-2"
                 alt=""
-                srcset=""
+                
               />
 
               <p className="card-text my-4" style={{ fontSize: "17px" }}>
-                Lorem ipsum dolor sit amet consectetur. Tellus sit nibh elit
-                eget. Sociis netus ultrices facilisis ullamcorper.
+                Excellent service at  in Noida! Great product range,
+                helpful staff, and quick installation. Highly recommend!
               </p>
               <div className="d-flex flex-row align-items-center justify-content-around w-100  ">
                 <div>
@@ -104,7 +104,7 @@ function Ratings() {
                 </div>
                 <div>
                   <h6 style={{ fontSize: "18px", marginTop: "14px" }}>Aman</h6>
-                  <p style={{ fontSize: "14px" }}>12/12/2020</p>
+                  <p style={{ fontSize: "14px" }}>22/12/2024</p>
                 </div>
               </div>
             </div>
@@ -124,19 +124,19 @@ function Ratings() {
                 src={Googel}
                 style={{ width: "55px" }}
                 className="my-3"
-                srcset=""
+                
               />
               <img
                 src={Stars}
                 style={{ width: "85px" }}
                 className="my-2"
                 alt=""
-                srcset=""
+                
               />
 
               <p className="card-text my-3" style={{ fontSize: "14px" }}>
-                Lorem ipsum dolor sit amet consectetur. Tellus sit nibh elit
-                eget. Sociis netus ultrices facilisis ullamcorper.
+                Excellent service at in Noida! Great product range,
+                helpful staff, and quick installation. Highly recommend!
               </p>
               <div className="d-flex flex-row align-items-center justify-content-around w-100  ">
                 <div>
@@ -144,7 +144,7 @@ function Ratings() {
                 </div>
                 <div>
                   <h6 style={{ fontSize: "12px", marginTop: "10px" }}>Aman</h6>
-                  <p style={{ fontSize: "10px" }}>12/12/2020</p>
+                  <p style={{ fontSize: "10px" }}>22/12/2024</p>
                 </div>
               </div>
             </div>

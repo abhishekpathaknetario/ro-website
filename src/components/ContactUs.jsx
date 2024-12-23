@@ -48,7 +48,7 @@ const ContactUs = () => {
           <p className="fs-3 fw-semibold text-center my-3 fw-bold  text-primary ">
             Get in Touch with Us{" "}
           </p>
-          <p className="px-4 mb-5 justify fs-5">
+          <p className="px-0 px-md-4 mb-5 justify fs-5">
             Do you need help? Get in touch with our staff right now, and we'll
             take care of your issues right away. Our services range from fast RO
             purifier installation to troubleshooting, ensuring your water

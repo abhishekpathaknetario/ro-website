@@ -13,12 +13,18 @@
   }
   .card-title {
     font-size: 0.8rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
 .card-title {
   font-size: 1rem;
   margin-bottom: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .card-text {
   font-size: 0.8rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
