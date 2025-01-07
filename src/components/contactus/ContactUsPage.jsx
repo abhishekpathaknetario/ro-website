@@ -40,7 +40,7 @@ const ContactUsPage = () => {
   };
   return (
     <>
-      <div className="container ">
+      <div className="container py-5 ">
         <div className="py-5">
           <p className="fs-2 fw-semibold text-center my-3 fw-bold  text-primary ">
             Get in Touch with Us{" "}

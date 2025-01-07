@@ -8,7 +8,7 @@ import "./Btn.css";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light px-lg-5 bg-white z-1 ">
+    <nav className="navbar position-fixed top-0  w-100 py-3 navbar-expand-lg navbar-light px-lg-5 bg-white z-1 ">
       <div className="container-fluid px-lg-5 ">
         <button
           className="navbar-toggler"

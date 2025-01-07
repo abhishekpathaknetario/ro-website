@@ -45,6 +45,9 @@
   h5 {
     font-size: 18px;
   }
+  .container-area {
+    padding: 50px;
+  }
 }
 
 @media (max-width: 550px) {

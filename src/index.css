@@ -1,3 +1,5 @@
+
+
 /* Target the scrollbar */
 ::-webkit-scrollbar {
   width: 8px; /* Set width for vertical scrollbars */
@@ -20,4 +22,3 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-

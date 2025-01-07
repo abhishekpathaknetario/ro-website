@@ -5,10 +5,10 @@ import Frame2 from "../assets/Images/frame2.png";
 import Frame3 from "../assets/Images/frame3.png";
 function WhatWeOffer() {
   return (
-    <section className="container mt-5 mb-5">
+    <section className="container  mb-5">
       <div>
         {/* TOP HEADING AND DESCRIPTION */}
-        <div className="text-center d-flex flex-column align-items-center my-5 ">
+        <div className="text-center d-flex flex-column align-items-center  ">
           <p className="text-primary fw-bold fs-2 fw-semibold  py-2 ">WHAT WE OFFER</p>
 
           <h1 className="fs-2 fs-md-6 py-2 before-element">

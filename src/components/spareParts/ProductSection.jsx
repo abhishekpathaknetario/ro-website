@@ -26,6 +26,8 @@ import product11 from "../spareParts/CardsImage/UV.png";
 import product12 from "../spareParts/CardsImage/CarbonSedimentSpunFilters.png";
 
 import product13 from "../spareParts/CardsImage/CarbonSedimentSpunFilters.png";
+
+
 const products = [
   { id: 1, image: product1, title: "Carbon Filter", price: "₹450" },
   { id: 2, image: product2, title: "Sediment Filter", price: "₹450" },
@@ -138,7 +140,7 @@ const ProductSection = () => {
       <input
         type="text"
         placeholder="Search products"
-        className="w-100 px-2 fw-semibold text-dark"
+        className="w-100 px-2 py-2 rounded-2 fw-semibold text-dark"
         value={searchTerm}
         onChange={handleSearchChange}
       />

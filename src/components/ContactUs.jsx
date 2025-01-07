@@ -43,7 +43,7 @@ const ContactUs = () => {
   };
   return (
     <>
-      <div className="container ">
+      <div className="container  ">
         <div className="py-5">
           <p className="fs-3 fw-semibold text-center my-3 fw-bold  text-primary ">
             Get in Touch with Us{" "}

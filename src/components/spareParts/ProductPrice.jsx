@@ -37,7 +37,7 @@ function ProductPrice() {
         type="text"
         placeholder="Search for a product"
         value={searchTerm}
-        className="w-100 px-2"
+        className="w-100 px-2 py-2"
         onChange={handleInputChange}
       />
       <div id="productList">

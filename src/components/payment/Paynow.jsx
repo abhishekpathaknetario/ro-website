@@ -5,7 +5,7 @@ import QrCode from "../../assets/Images/qr.png";
 
 const Paynow = () => {
   return (
-    <div className="my-5">
+    <div className="my-5 py-5">
       <div className="container my-5">
         <h1 className="text-primary fw-bold">Pay now</h1>
         <p>More Information and Any Problem Call Contact Dhuru Rathee</p>

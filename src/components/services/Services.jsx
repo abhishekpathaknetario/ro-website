@@ -9,7 +9,7 @@ import TypesOfService from "./TypesOfService";
 const Services = () => {
   return (
     <div>
-      <section className=" px-3 my-5 my-lg-0 px-lg-5 pe-3 pe-lg-0">
+      <section className=" px-3 py-5 my-5 my-lg-0 px-lg-5 pe-3 pe-lg-0">
         <div className="d-flex justify-content-between flex-wrap-reverse flex-lg-nowrap gap-4 gap-lg-5">
           <div className="service_info container  col-lg-6 d-flex  align-items-start justify-content-center flex-column">
             <h1 className="service-heading ">
