@@ -36,7 +36,16 @@ const Footer = () => {
           <div className="right">
             <div className=" d-flex flex-column flex-md-row  justify-content-between align-items-start gap-3 footer-links py-4  px-lg-4 gap-lg-5 fw-semibold">
               <div className=" ">
-                <a href="#">Home</a>
+                <Link
+                  className={(e) => {
+                    return e.isActive
+                      ? "nav-link text-primary border-2 border-bottom border-primary"
+                      : "nav-link ";
+                  }}
+                  to="/"
+                >
+                  Home
+                </Link>
               </div>
               <div className="">
                 <Link
@@ -74,6 +83,18 @@ const Footer = () => {
                   Contact
                 </Link>
               </div>
+              <div className="">
+                <Link
+                  className={(e) => {
+                    return e.isActive
+                      ? "nav-link text-primary border-2 border-bottom border-primary"
+                      : "nav-link ";
+                  }}
+                  to="/ratings"
+                >
+                  Ratings
+                </Link>
+              </div>
             </div>
           </div>
         </div>
@@ -107,7 +128,8 @@ const Footer = () => {
 
         <div className="border-top text-center pt-4  border-secondary mt-5">
           <p>
-            All rights reserved by <span className="text-primary">© Netario innovations</span> private
+            All rights reserved by{" "}
+            <span className="text-primary">© Netario innovations</span> private
             limited
           </p>
         </div>

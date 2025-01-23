@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "home": "https://dravyaro.com/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -17,8 +18,10 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-helmet": "^6.1.0",
+    "react-icons": "^5.4.0",
     "react-router-dom": "^7.0.2",
     "ro-website": "file:",
+    "styled-components": "^6.1.14",
     "swiper": "^11.1.15"
   },
   "devDependencies": {

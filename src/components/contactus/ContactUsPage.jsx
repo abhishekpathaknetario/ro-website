@@ -36,7 +36,7 @@ const ContactUsPage = () => {
       phone: "",
       mail: "",
     });
-    alert("Form data has been saved to local storage!");
+    // alert("Form data has been saved to local storage!");
   };
   return (
     <>
@@ -78,7 +78,7 @@ const ContactUsPage = () => {
                "
                 >
                   <form
-                    className=" contact-card-container rounded-5 px-lg-5 px-3 py-3 my-5 "
+                    className=" contact-card-container bg-white rounded-5 px-lg-5 px-3 py-3 my-5 "
                     style={{
                       boxShadow:
                         " rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px",

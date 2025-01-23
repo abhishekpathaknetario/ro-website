@@ -1,4 +1,3 @@
-import React from "react";
 import { Helmet } from "react-helmet";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
@@ -14,6 +13,9 @@ import Paynow from "./components/payment/Paynow";
 import favicon from "../src/assets/Images/logo.png";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+import RateUs from "./components/Rateus/RateUs";
+import RatingsPage from "./components/RatingsPage/RatingsPage";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -73,6 +75,26 @@ const App = () => {
         <>
           <Navbar />
           <Paynow />
+          <Footer />
+        </>
+      ),
+    },
+    {
+      path: "/rateus",
+      element: (
+        <>
+          <Navbar />
+          <RateUs />
+          <Footer />
+        </>
+      ),
+    },
+    {
+      path: "/ratings",
+      element: (
+        <>
+          <Navbar />
+          <RatingsPage />
           <Footer />
         </>
       ),

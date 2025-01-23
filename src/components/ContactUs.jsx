@@ -34,6 +34,7 @@ const ContactUs = () => {
 
     // Save the updated array back to local storage
     localStorage.setItem("user", JSON.stringify(updatedData));
+    
     addUser({
       name: "",
       phone: "",
