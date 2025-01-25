@@ -12,6 +12,7 @@ import Ratings from "./Ratings";
 import BrandsArea from "./BrandsArea";
 import ContactUs from "./ContactUs";
 import "./HeroSection.css";
+import RateUs from "./Rateus/RateUs";
 
 const HeroSection = () => {
   return (
@@ -24,7 +25,10 @@ const HeroSection = () => {
               style={{ letterSpacing: ".5px" }}
             >
               Expert Water Purifier Services: Keep Your
-              <span className="text-primary " style={{fontWeight:"900"}}> Water </span>
+              <span className="text-primary " style={{ fontWeight: "900" }}>
+                {" "}
+                Water{" "}
+              </span>
               Fresh
             </h3>
             <p className="fs-5 fs-md-3 fs-lg-5">
@@ -71,6 +75,7 @@ const HeroSection = () => {
       <Ratings />
       <BrandsArea />
       <ContactUs />
+      <RateUs />
     </>
   );
 };
