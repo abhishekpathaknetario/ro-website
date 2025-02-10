@@ -39,7 +39,7 @@ const HeroSection = () => {
             <div className="d-flex gap-5 gap-md-3 justify-content-center justify-content-md-start">
               <button className="btn px-4 btn-primary rounded-pill">
                 <FontAwesomeIcon icon={faPhone} />
-                <a className="btncall" href="tel:5551234567" target="_blank">
+                <a className="btncall" href="tel:+918006225800" target="_blank">
                   <span> Call Us</span>
                 </a>
               </button>
