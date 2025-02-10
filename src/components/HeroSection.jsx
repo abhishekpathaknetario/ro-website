@@ -46,7 +46,7 @@ const HeroSection = () => {
               <button className="btn px-3 btn-success rounded-pill ">
                 <FontAwesomeIcon icon={faWhatsapp} />
                 <a
-                  href="  https://wa.me/
+                  href="  https://wa.me/+918006225800
                   
                "
                   className="btnwhats"
