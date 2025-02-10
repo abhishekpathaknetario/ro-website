@@ -96,7 +96,7 @@ const Navbar = () => {
         </div>
         <button className="btn  btn-primary rounded-pill">
           <FontAwesomeIcon icon={faPhone} />
-          <a className="btncall" href="tel:5551234567" target="_blank">
+          <a className="btncall" href="tel:+918006225800" target="_blank">
             <span> Call Us</span>
           </a>
         </button>
