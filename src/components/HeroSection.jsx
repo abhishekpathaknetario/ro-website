@@ -37,25 +37,26 @@ const HeroSection = () => {
             </p>
 
             <div className="d-flex gap-5 gap-md-3 justify-content-center justify-content-md-start">
-              <button className="btn px-4 btn-primary rounded-pill">
+              <a className="btncall" href="tel:+918006225800" target="_blank"><button className="btn px-4 btn-primary rounded-pill">
                 <FontAwesomeIcon icon={faPhone} />
-                <a className="btncall" href="tel:+918006225800" target="_blank">
-                  <span> Call Us</span>
-                </a>
+
+                <span> Call Us</span>
               </button>
-              <button className="btn px-3 btn-success rounded-pill ">
-                <FontAwesomeIcon icon={faWhatsapp} />
-                <a
-                  href="  https://wa.me/+918006225800
+              </a>
+              <a
+                href="  https://wa.me/+918006225800
                   
                "
-                  className="btnwhats"
-                  target="_blank"
-                >
+                className="btnwhats"
+                target="_blank"
+              >
+                <button className="btn px-3 btn-success rounded-pill ">
+                  <FontAwesomeIcon icon={faWhatsapp} />
+
                   {" "}
                   <span> Whatsapp</span>
-                </a>
-              </button>
+                </button>
+              </a>
             </div>
           </div>
 
@@ -68,7 +69,7 @@ const HeroSection = () => {
             />
           </div>
         </div>
-      </div>
+      </div >
       <WhatWeOffer />
       <OurPopServ />
       <SmilingMechanic />

@@ -94,12 +94,12 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <button className="btn  btn-primary rounded-pill">
-          <FontAwesomeIcon icon={faPhone} />
-          <a className="btncall" href="tel:+918006225800" target="_blank">
+        <a className="btncall" href="tel:+918006225800" target="_blank">
+          <button className="btn  btn-primary rounded-pill">
+            <FontAwesomeIcon icon={faPhone} />
             <span> Call Us</span>
-          </a>
-        </button>
+          </button>
+        </a>
         <NavLink
           className="mx-4 md-mx-5 d-none d-lg-block text-primary fs-4"
           to="/cartpage"

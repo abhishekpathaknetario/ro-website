@@ -66,26 +66,26 @@ const BrandsArea = () => {
         </div>
 
         <span className="px-0  px-lg-5 gap-3 d-flex align-items-center">
-          <button className="btn gap-2 d-flex align-items-center my-3 px-3 container  btn-primary rounded-pill ">
-            <FontAwesomeIcon icon={faPhone} />
-            <a className="btncall" href="tel:+918006225800" target="_blank">
+          <a className="btncall" href="tel:+918006225800" target="_blank">
+            <button className="btn gap-2 d-flex align-items-center my-3 px-3 container  btn-primary rounded-pill ">
+              <FontAwesomeIcon icon={faPhone} />
               <span> Call Us</span>
-            </a>
-          </button>
+            </button>
+          </a>
 
-          <button className="btn gap-2 d-flex align-items-center my-3 px-3 container  btn-success rounded-pill ">
-            <FontAwesomeIcon icon={faWhatsapp} />
-            <a
-              href="  https://wa.me/+918006225800
+          <a
+            href="  https://wa.me/+918006225800
                                                    
                                                 "
-              className="btnwhats"
-              target="_blank"
-            >
+            className="btnwhats"
+            target="_blank"
+          >
+            <button className="btn gap-2 d-flex align-items-center my-3 px-3 container  btn-success rounded-pill ">
+              <FontAwesomeIcon icon={faWhatsapp} />
               {" "}
               <span> Whatsapp</span>
-            </a>
-          </button>
+            </button>
+          </a>
         </span>
       </div>
     </div>
